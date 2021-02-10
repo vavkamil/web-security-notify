@@ -5,7 +5,7 @@ Telegram bot to notify me about new [Web Security Academy](https://portswigger.n
 
 ### Example
 
-![PoC](/screenshot.png?raw=true "PoC")
+<img src="/screenshot.png?raw=true" width="25%" height="25%" alt="PoC">
 
 ---
 
@@ -42,8 +42,9 @@ Change [schedule](https://schedule.readthedocs.io/en/stable/examples.html) inter
 
 `$ pip3 install -r requirements.txt`
 
-1) On Telegram, contact [@BotFather](https://telegram.me/botfather), send him a "/start" message
-2) Send another "/newbot" message, then follow the instructions
-3) Replace "telegram_token" with your API token
-4) On Telegram, contact [@userinfobot](https://t.me/userinfobot), send him a "/start" message
-5) Replace "telegram_chat_id" with your ID
+1) On Telegram, contact [@BotFather](https://telegram.me/botfather), send him a "*/start*" message
+2) Send another "*/newbot*" message, then follow the instructions
+3) Replace "**telegram_token**" with your API token
+4) Add your newly created bot to friends
+5) On Telegram, contact [@userinfobot](https://t.me/userinfobot), send him a "*/start*" message
+6) Replace "**telegram_chat_id**" with your ID
